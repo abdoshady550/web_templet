@@ -1,0 +1,162 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+}
+body{
+
+  background-color: #f1f1f1;
+   font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+   
+}
+.main{
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+.top{
+    text-align: center;
+    background-color: #ffffff;
+    height: 180px;
+}
+.bar{
+    display: flex;
+    background-color: #333333;
+    flex-direction:row;
+
+
+}
+.bar .leftli{
+    flex: 50%;
+    margin-left: -330px;
+}
+.bar .rightli{
+    flex: 50%;
+    text-align: right;
+margin-top: 14.8px;
+  padding-right: 10px;
+  
+    
+
+
+}
+.bar .leftli a{
+    display: inline;
+    padding: 18.7px 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.bar .leftli li {
+  
+        display: inline;
+       padding-left: 15px;
+}
+.bar .rightli a{
+    display: inline;
+    padding: 17px 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.bar .rightli li {
+    
+        display: inline;
+      
+}
+.bar .rightli a:hover {
+    background-color: #cccaca;
+    color: #000;
+  }
+  .bar .leftli a:hover {
+    background-color: #cccaca;
+  }
+.left{
+ display: flex;
+ flex-direction: column;
+ flex:80%;
+}
+.left2{
+    height: 50%;
+    background-color: #aaaaaa;
+}
+.top-left{
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    height: 440px;   
+    
+}
+.right2{
+    height: 30%;
+    background-color: #aaaaaa;
+}
+.buttom-left{
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-left: 25px;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    margin-top: 10px;
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    display: flex;
+ flex-direction: column;
+ flex:  30%;
+}
+.top-right{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+   height: 250px;
+   
+    
+}
+.buttom-right{
+   
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+ 
+}
+.foot-right{
+
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+   
+}
+.foot-right p{
+    margin-top: -10px;
+}
+.footer{
+    height: 100px;
+    background-color: #dddddd;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.footer  h2{
+    margin-top: 50px;
+    padding-top: 30px;
+
+}
